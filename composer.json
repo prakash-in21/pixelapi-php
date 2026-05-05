@@ -1,0 +1,22 @@
+{
+    "name": "pixelapi/pixelapi-php",
+    "description": "Official PHP SDK for PixelAPI — AI image, video, audio, 3D API",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://pixelapi.dev",
+    "keywords": ["pixelapi", "ai", "image", "background-removal", "image-generation", "upscaling", "face-restore", "rest-api"],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PixelAPI\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/prakash-in21/pixelapi-php/issues",
+        "docs": "https://pixelapi.dev/docs"
+    }
+}
